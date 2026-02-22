@@ -1,7 +1,9 @@
 {
   "name": "example-project",
   "version": "0.1.1",
-  "type": "module",
+  "engines": {
+    "node": ">=25.0.0"
+  },
   "bin": {
     "example-project": "bin/example-project.js"
   },
@@ -26,7 +28,9 @@
     "aws-cdk": "2.1105.0",
     "eslint": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.3.0",
     "jest": "^30",
+    "jiti": "^2.6.1",
     "prettier": "^3.8.1",
     "standard-version": "^9.5.0",
     "ts-jest": "^29",

@@ -1,6 +1,6 @@
 #!/opt/homebrew/opt/node/bin/node
 import * as cdk from 'aws-cdk-lib/core';
-import { ExampleProjectStack } from '../lib/example-project-stack.js';
+import { ExampleProjectStack } from '../lib/example-project-stack';
 
 const app = new cdk.App();
 new ExampleProjectStack(app, 'ExampleProjectStack', {
