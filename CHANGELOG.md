@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/jumic/example-project/compare/v1.1.0...v1.2.0) (2026-02-22)
+
+
+### Features
+
+* add second queue ([#18](https://github.com/jumic/example-project/issues/18)) ([0536a40](https://github.com/jumic/example-project/commit/0536a401cd7bf0b60970e6c4b6936523e8a42fc1))
+
+
+### Bug Fixes
+
+* enable ssl on queue ([#16](https://github.com/jumic/example-project/issues/16)) ([9e5debe](https://github.com/jumic/example-project/commit/9e5debe649979462267dbdbd16c89b21b99db509))
+
 ## [1.1.0](https://github.com/jumic/example-project/compare/v1.0.1...v1.1.0) (2026-02-22)
 
 
