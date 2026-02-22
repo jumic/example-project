@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/jumic/example-project/compare/v1.0.0...v1.0.1) (2026-02-22)
+
+
+### Bug Fixes
+
+* automatically release new versions using release-please ([#11](https://github.com/jumic/example-project/issues/11)) ([c53fb1a](https://github.com/jumic/example-project/commit/c53fb1a97faeea255a7bc52e6ecbb63adbcdb220))
+* revert auto release property ([#12](https://github.com/jumic/example-project/issues/12)) ([a239095](https://github.com/jumic/example-project/commit/a23909584cde8a436c58a121b8f15c632d179da6))
+
 ## 1.0.0 (2026-02-22)
 
 
