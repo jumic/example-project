@@ -1,4 +1,4 @@
-name: 'Lint PR'
+name: Lint PR title
 
 on:
   pull_request_target:
@@ -6,7 +6,6 @@ on:
       - opened
       - reopened
       - edited
-      # - synchronize (if you use required Actions)
 
 jobs:
   main:
