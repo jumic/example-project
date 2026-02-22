@@ -13,5 +13,10 @@ export class ExampleProjectStack extends cdk.Stack {
       visibilityTimeout: cdk.Duration.seconds(300),
       enforceSSL: true,
     });
+
+    new sqs.Queue(this, 'ExampleProjectQueue2', {
+      visibilityTimeout: cdk.Duration.seconds(300),
+      enforceSSL: true,
+    });
   }
 }
