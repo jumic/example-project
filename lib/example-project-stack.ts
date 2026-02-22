@@ -9,7 +9,7 @@ export class ExampleProjectStack extends cdk.Stack {
     // The code that defines your stack goes here
 
     // example resource
-    new sqs.Queue(this, 'ExampleProjectQueue', {
+    const x = new sqs.Queue(this, 'ExampleProjectQueue', {
       visibilityTimeout: cdk.Duration.seconds(300),
     });
   }
