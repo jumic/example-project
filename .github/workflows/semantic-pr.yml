@@ -1,15 +1,11 @@
 name: Lint PR title
 
 on:
-  pull_request_target:
-    types:
-      - opened
-      - reopened
-      - edited
+  pull_request:
+    types: [opened, reopened, edited, synchronize]
 
 jobs:
-  main:
-    name: Validate PR title
+  validate:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: read
