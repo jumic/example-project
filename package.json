@@ -2,7 +2,7 @@
   "name": "example-project",
   "version": "0.1.1",
   "engines": {
-    "node": ">=25.0.0"
+    "node": ">=24.0.0"
   },
   "bin": {
     "example-project": "bin/example-project.js"
