@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/jumic/example-project/compare/v1.0.1...v1.1.0) (2026-02-22)
+
+
+### Features
+
+* release new releases manually only ([#14](https://github.com/jumic/example-project/issues/14)) ([77c5713](https://github.com/jumic/example-project/commit/77c57132ab4dbba8f62f9cdb82926606c2708183))
+
 ## [1.0.1](https://github.com/jumic/example-project/compare/v1.0.0...v1.0.1) (2026-02-22)
 
 
