@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/jumic/example-project/compare/v1.2.0...v1.2.1) (2026-02-23)
+
+
+### Bug Fixes
+
+* **release-please:** remove custom token configuration ([#19](https://github.com/jumic/example-project/issues/19)) ([73093d8](https://github.com/jumic/example-project/commit/73093d817ce04e6f4aa5838740792795c22066fe))
+
 ## [1.2.0](https://github.com/jumic/example-project/compare/v1.1.0...v1.2.0) (2026-02-22)
 
 
