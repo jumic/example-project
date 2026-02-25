@@ -1,6 +1,7 @@
 #!/opt/homebrew/opt/node/bin/node
 import * as cdk from 'aws-cdk-lib/core';
 import { ExampleProjectStack } from '../lib/example-project-stack';
+import { AwsSolutionsChecks } from 'cdk-nag';
 
 const app = new cdk.App();
 new ExampleProjectStack(app, 'ExampleProjectStack', {
@@ -15,3 +16,5 @@ new ExampleProjectStack(app, 'ExampleProjectStack', {
   // env: { account: '123456789012', region: 'us-east-1' },
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
+
+cdk.Aspects.of(app).add(new AwsSolutionsChecks());

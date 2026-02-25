@@ -35,3 +35,7 @@ jobs:
       # 6️⃣ Run TypeScript type check
       - name: TypeScript check
         run: npm run typecheck
+
+      # 7️⃣ Run cdk-nag check
+      - name: cdk-nag check
+        run: npm run cdk-nag
