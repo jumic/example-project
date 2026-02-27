@@ -8,10 +8,10 @@ pull_request_rules:
   - name: queue jumic labeled PRs
     conditions:
       - base=main
-      - 'author=jumic'
-      - 'check-success=*'
-      - 'label=ready-to-merge'
-      - 'label!=do-not-merge'
+      - "author=jumic"
+      - "check-success=*"
+      - "label=ready-to-merge"
+      - "label!=do-not-merge"
     actions:
       queue:
         name: main-queue
@@ -19,11 +19,11 @@ pull_request_rules:
   - name: queue external contributor PRs
     conditions:
       - base=main
-      - 'author!=jumic'
-      - 'author!=dependabot[bot]'
-      - '#approved-reviews-by>=1'
-      - 'check-success=*'
-      - 'label!=do-not-merge'
+      - "author!=jumic"
+      - "author!=dependabot[bot]"
+      - "#approved-reviews-by>=1"
+      - "check-success=*"
+      - "label!=do-not-merge"
     actions:
       queue:
         name: main-queue
@@ -31,9 +31,9 @@ pull_request_rules:
   - name: queue dependabot PRs
     conditions:
       - base=main
-      - 'author=dependabot[bot]'
-      - 'check-success=*'
-      - 'label!=do-not-merge'
+      - "author=dependabot[bot]"
+      - "check-success=*"
+      - "label!=do-not-merge"
     actions:
       queue:
         name: main-queue
