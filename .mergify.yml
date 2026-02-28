@@ -1,7 +1,5 @@
 queue_rules:
   - name: main-queue
-    conditions:
-      - base=main
     merge_method: squash
 
 pull_request_rules:
